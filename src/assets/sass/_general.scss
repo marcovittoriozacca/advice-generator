@@ -1,0 +1,15 @@
+@use './partials/variables' as *;
+@use './partials/mixins' as *;
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+
+main{
+    background-color: $dark-blue;
+    .box-container{
+        height: 100vh;
+        @include flex-all-center;
+        
+    }
+}
